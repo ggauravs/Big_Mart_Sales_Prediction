@@ -60,5 +60,5 @@ submission_grouped <- data.frame(
   Item_Outlet_Sales = predictions_grouped
 )
 
-write.csv(submission_grouped, "final_submission_grouped_v1.csv", row.names = FALSE)
+write.csv(submission_grouped, "final_submission_grouped.csv", row.names = FALSE)
 
